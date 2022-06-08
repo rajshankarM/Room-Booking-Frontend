@@ -18,7 +18,9 @@ const List = () => {
   const [max, setMax] = useState(undefined);
 
   const { data, loading, reFetch } = useFetch(
-    `/hotels?city=${destination}&min=${min || 0}&max=${max || 999}`
+    `https://devshan-reservation.herokuapp.com/api/hotels?city=${destination}&min=${
+      min || 0
+    }&max=${max || 999}`
   );
 
   const handleClick = () => {
