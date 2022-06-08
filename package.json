@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://devshan-reservation.herokuapp.com/api/"
+  "proxy": "https://devshan-reservation.herokuapp.com/api"
 }
