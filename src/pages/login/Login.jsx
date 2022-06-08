@@ -23,7 +23,7 @@ const Login = () => {
     dispatch({ type: "LOGIN_START" });
     try {
       const res = await axios.post(
-        "https://devshan-reservation.herokuapp.com/auth/login",
+        "https://devshan-reservation.herokuapp.com/api/auth/login",
         credentials
       );
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data.details });
